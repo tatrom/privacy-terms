@@ -2,32 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Privacy Policy – Hidden Camera Detector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy – Argus – Hidden Camera Detector</title>
+    <style>
+        :root { color-scheme: light dark; }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 24px 20px 64px;
+            color: #1c1c1e;
+            background: #ffffff;
+        }
+        h1 { font-size: 1.7rem; margin: 0 0 4px; }
+        h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+        p, li { font-size: 1rem; }
+        ul { padding-left: 22px; }
+        li { margin: 6px 0; }
+        a { color: #2f6fed; }
+        .meta { color: #6b6b70; font-size: 0.95rem; margin-top: 0; }
+        .lead { font-size: 1.05rem; }
+        @media (prefers-color-scheme: dark) {
+            body { color: #e8e8ea; background: #0f1115; }
+            a { color: #6ea0ff; }
+            .meta { color: #9a9aa2; }
+        }
+    </style>
 </head>
 <body>
 <h1>Privacy Policy</h1>
+<p class="meta"><strong>Effective date:</strong> June 18, 2026</p>
 
-<p><strong>Effective date:</strong> June 11, 2025</p>
+<p class="lead">This Privacy Policy explains how <strong>Argus – Hidden Camera Detector</strong> (“Argus”, “the App”, “we”, “us”) handles information when you use it. In short: the App is built to keep your data on your device. We do not run analytics, advertising, or tracking, and the only information that leaves your device is what is strictly required to process your subscription.</p>
 
-<p>This privacy policy explains how the Hidden Camera Detector app handles your data.</p>
-
-<h2>Data Collection</h2>
-<p>The app does <strong>not collect, store, or transmit</strong> any personal or sensitive user data.</p>
-<p>All detection processes (e.g., camera scan, Bluetooth device scan, magnetometer readings) are performed <strong>locally</strong> on your device.</p>
-
-<h2>Third-party Services</h2>
-<p>This app does not use third-party services such as analytics, ads, or cloud data storage.</p>
-
-<h2>Permissions</h2>
+<h2>1. Summary</h2>
 <ul>
-    <li>Camera access (if required): used strictly for visual inspection features.</li>
-    <li>Bluetooth and sensor access: used only for detecting nearby hardware and analyzing magnetic fields.</li>
+    <li><strong>On-device by design.</strong> All scanning and detection (camera, Bluetooth, Wi-Fi/network, magnetometer) runs locally on your phone.</li>
+    <li><strong>No analytics, ads, or tracking.</strong> We do not use advertising or analytics SDKs and do not track you across apps or websites.</li>
+    <li><strong>The only data sent off your device</strong> relates to purchases and subscriptions, handled by our payment infrastructure providers (see Section 3).</li>
 </ul>
 
-<h2>Changes to Policy</h2>
-<p>We may update this policy in the future. Any updates will be posted on this page.</p>
+<h2>2. Information processed on your device (not collected by us)</h2>
+<p>The following is processed locally to make the App work. It is shown to you in the App and, for scans, may be saved to a local scan history on your device. None of it is uploaded to us or to any server:</p>
+<ul>
+    <li><strong>Camera frames:</strong> when you use the camera detector, live video frames are analyzed on-device to spot reflective/infrared glints. Frames are <strong>not recorded, saved, or transmitted</strong>.</li>
+    <li><strong>Bluetooth scan data:</strong> identifiers, names, and signal strength of nearby Bluetooth devices, used to list devices that may be cameras or sensors.</li>
+    <li><strong>Wi-Fi &amp; network data:</strong> your device’s local IP address, the current Wi-Fi network name (SSID), and the local IP addresses of other devices on the same network, used to list devices on your network.</li>
+    <li><strong>Magnetometer/sensor readings:</strong> magnetic-field measurements used to help locate electronics.</li>
+    <li><strong>Scan history:</strong> if the App saves your past scans, it is stored only in the App’s local storage on your device. You can clear it in the App or by uninstalling the App. It is never uploaded.</li>
+</ul>
 
-<h2>Contact</h2>
-<p>If you have questions or concerns, please contact us at: <a href="mailto:your@email.com">your@email.com</a></p>
+<h2>3. Information handled by third parties (subscriptions &amp; purchases)</h2>
+<p>Premium features are offered through an auto-renewable subscription. When you start, purchase, or restore a subscription, the following partners process purchase information on our behalf:</p>
+<ul>
+    <li><strong>RevenueCat, Inc.</strong> — our subscription management provider. It processes your transaction/receipt information and an <strong>anonymous app-user identifier</strong> (generated by the App; not your name or email) to validate purchases and manage your subscription entitlement. See the <a href="https://www.revenuecat.com/privacy/" rel="noopener noreferrer" target="_blank">RevenueCat Privacy Policy</a>.</li>
+    <li><strong>Apple App Store / Google Play</strong> — process the actual payment. Your name and payment details are handled by Apple or Google under their own privacy policies; <strong>we never receive your payment card information</strong>.</li>
+</ul>
+
+<h2>4. Permissions and why we request them</h2>
+<ul>
+    <li><strong>Camera</strong> — to analyze the live image for reflections/IR glints from hidden camera lenses. No photos or video are stored.</li>
+    <li><strong>Bluetooth</strong> — to discover nearby Bluetooth devices that could be hidden electronics.</li>
+    <li><strong>Location</strong> — required by the operating system to read Wi-Fi network information and to scan for nearby Bluetooth devices. We do <strong>not</strong> use GPS to track you, and we do not store or transmit your location.</li>
+    <li><strong>Local network</strong> — to list other devices on your Wi-Fi network, the App checks addresses on your local network. On iOS this prompts for “Local Network” access, and on Android for “Nearby Wi-Fi devices”. This information stays on your device and is not transmitted to us.</li>
+    <li><strong>Notifications</strong> — to send optional local reminders (e.g., to run a scan). These are generated on your device; no data is sent to a server, and you can disable them in your system settings.</li>
+</ul>
+
+<h2>5. Data sharing and sale</h2>
+<p>We do <strong>not</strong> sell your data and do <strong>not</strong> share it for advertising. The only sharing is with the purchase providers named in Section 3, solely to process and maintain your subscription.</p>
+
+<h2>6. Data retention</h2>
+<p>On-device information (scan history, settings) remains on your device until you delete it or uninstall the App. Purchase records held by RevenueCat and the app stores are retained according to their respective policies.</p>
+
+<h2>7. Children’s privacy</h2>
+<p>The App is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
+
+<h2>8. Your choices and rights</h2>
+<p>You can clear on-device data at any time by clearing the App’s history or uninstalling it. You can manage or cancel your subscription in your App Store or Google Play account settings. For questions about purchase data held by our providers, contact us using the details below.</p>
+
+<h2>9. Security</h2>
+<p>On-device data is stored within the App’s private storage area, which is protected by your device’s operating system sandbox.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>We may update this Privacy Policy from time to time. Material changes will be posted on this page with an updated effective date.</p>
+
+<h2>11. Contact</h2>
+<p>If you have questions or concerns about this policy, contact us at: <a href="mailto:argus.detector@proton.me">argus.detector@proton.me</a></p>
 </body>
 </html>
