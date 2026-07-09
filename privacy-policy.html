@@ -33,15 +33,15 @@
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="meta"><strong>Effective date:</strong> June 18, 2026</p>
+<p class="meta"><strong>Effective date:</strong> July 9, 2026</p>
 
-<p class="lead">This Privacy Policy explains how <strong>Argus – Hidden Camera Detector</strong> (“Argus”, “the App”, “we”, “us”) handles information when you use it. In short: the App is built to keep your data on your device. We do not run analytics, advertising, or tracking, and the only information that leaves your device is what is strictly required to process your subscription.</p>
+<p class="lead">This Privacy Policy explains how <strong>Argus – Hidden Camera Detector</strong> (“Argus”, “the App”, “we”, “us”) handles information when you use it. In short: the App is built to keep your data on your device. We do not run behavioral analytics, advertising, or tracking, and the only information that leaves your device is what is strictly required to process your subscription, plus technical crash reports that help us fix bugs.</p>
 
 <h2>1. Summary</h2>
 <ul>
     <li><strong>On-device by design.</strong> All scanning and detection (camera, Bluetooth, Wi-Fi/network, magnetometer) runs locally on your phone.</li>
-    <li><strong>No analytics, ads, or tracking.</strong> We do not use advertising or analytics SDKs and do not track you across apps or websites.</li>
-    <li><strong>The only data sent off your device</strong> relates to purchases and subscriptions, handled by our payment infrastructure providers (see Section 3).</li>
+    <li><strong>No ads or tracking.</strong> We do not use advertising or behavioral-analytics SDKs and do not track you across apps or websites.</li>
+    <li><strong>The only data sent off your device</strong> relates to purchases and subscriptions, handled by our payment infrastructure providers (see Section 3), and technical crash diagnostics (see Section 4).</li>
 </ul>
 
 <h2>2. Information processed on your device (not collected by us)</h2>
@@ -61,7 +61,16 @@
     <li><strong>Apple App Store / Google Play</strong> — process the actual payment. Your name and payment details are handled by Apple or Google under their own privacy policies; <strong>we never receive your payment card information</strong>.</li>
 </ul>
 
-<h2>4. Permissions and why we request them</h2>
+<h2>4. Crash and error diagnostics</h2>
+<p>If the App crashes or encounters an internal error, a diagnostic report is sent to <strong>Sentry</strong> (Functional Software, Inc.) so we can find and fix the problem. These reports are stored in the <strong>European Union</strong> and contain technical information only: the error and stack trace, App version, device model, and operating-system version. They are <strong>not linked to your identity</strong> and are not used for tracking, advertising, or behavioral analytics. Specifically:</p>
+<ul>
+    <li><strong>No scan data ever leaves your device:</strong> camera frames, Bluetooth/Wi-Fi scan results, network addresses, and sensor readings are never included in crash reports.</li>
+    <li><strong>No personal identifiers:</strong> reports contain no name, email, account, or advertising identifier. They do include a <strong>random per-installation identifier</strong> that lets us see whether several crashes come from the same installation of the App; it says nothing about who you are and is reset when you reinstall the App.</li>
+    <li><strong>No IP address storage:</strong> IP addresses are discarded on receipt and are not stored with reports.</li>
+</ul>
+<p>See the <a href="https://sentry.io/privacy/" rel="noopener noreferrer" target="_blank">Sentry Privacy Policy</a>.</p>
+
+<h2>5. Permissions and why we request them</h2>
 <ul>
     <li><strong>Camera</strong> — to analyze the live image for reflections/IR glints from hidden camera lenses. No photos or video are stored.</li>
     <li><strong>Bluetooth</strong> — to discover nearby Bluetooth devices that could be hidden electronics.</li>
@@ -70,25 +79,25 @@
     <li><strong>Notifications</strong> — to send optional local reminders (e.g., to run a scan). These are generated on your device; no data is sent to a server, and you can disable them in your system settings.</li>
 </ul>
 
-<h2>5. Data sharing and sale</h2>
-<p>We do <strong>not</strong> sell your data and do <strong>not</strong> share it for advertising. The only sharing is with the purchase providers named in Section 3, solely to process and maintain your subscription.</p>
+<h2>6. Data sharing and sale</h2>
+<p>We do <strong>not</strong> sell your data and do <strong>not</strong> share it for advertising. The only sharing is with the purchase providers named in Section 3 (solely to process and maintain your subscription) and the crash-diagnostics provider named in Section 4 (solely to fix defects in the App).</p>
 
-<h2>6. Data retention</h2>
-<p>On-device information (scan history, settings) remains on your device until you delete it or uninstall the App. Purchase records held by RevenueCat and the app stores are retained according to their respective policies.</p>
+<h2>7. Data retention</h2>
+<p>On-device information (scan history, settings) remains on your device until you delete it or uninstall the App. Purchase records held by RevenueCat and the app stores, and crash reports held by Sentry, are retained according to their respective policies.</p>
 
-<h2>7. Children’s privacy</h2>
+<h2>8. Children’s privacy</h2>
 <p>The App is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
 
-<h2>8. Your choices and rights</h2>
-<p>You can clear on-device data at any time by clearing the App’s history or uninstalling it. You can manage or cancel your subscription in your App Store or Google Play account settings. For questions about purchase data held by our providers, contact us using the details below.</p>
+<h2>9. Your choices and rights</h2>
+<p>You can clear on-device data at any time by clearing the App’s history or uninstalling it. You can manage or cancel your subscription in your App Store or Google Play account settings. For questions about purchase or crash-diagnostic data held by our providers, contact us using the details below.</p>
 
-<h2>9. Security</h2>
+<h2>10. Security</h2>
 <p>On-device data is stored within the App’s private storage area, which is protected by your device’s operating system sandbox.</p>
 
-<h2>10. Changes to this policy</h2>
+<h2>11. Changes to this policy</h2>
 <p>We may update this Privacy Policy from time to time. Material changes will be posted on this page with an updated effective date.</p>
 
-<h2>11. Contact</h2>
+<h2>12. Contact</h2>
 <p>If you have questions or concerns about this policy, contact us at: <a href="mailto:argus.detector@proton.me">argus.detector@proton.me</a></p>
 </body>
 </html>
