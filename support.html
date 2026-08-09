@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+  Support page for the App Store "Support URL" field, which rejects mailto:
+  links and requires an http(s) address.
+  Deploy alongside privacy-policy.html and terms-of-use.html in the
+  tatrom/privacy-terms GitHub Pages repo → https://tatrom.github.io/privacy-terms/support.html
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Support – Argus – Hidden Camera Detector</title>
+    <style>
+        :root { color-scheme: light dark; }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 24px 20px 64px;
+            color: #1c1c1e;
+            background: #ffffff;
+        }
+        h1 { font-size: 1.7rem; margin: 0 0 4px; }
+        h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+        h3 { font-size: 1.05rem; margin: 22px 0 6px; }
+        p, li { font-size: 1rem; }
+        ul { padding-left: 22px; }
+        li { margin: 6px 0; }
+        a { color: #2f6fed; }
+        .meta { color: #6b6b70; font-size: 0.95rem; margin-top: 0; }
+        .lead { font-size: 1.05rem; }
+        .contact {
+            margin: 20px 0 8px;
+            padding: 16px 18px;
+            border: 1px solid #e2e2e6;
+            border-radius: 12px;
+        }
+        @media (prefers-color-scheme: dark) {
+            body { color: #e8e8ea; background: #0f1115; }
+            a { color: #6ea0ff; }
+            .meta { color: #9a9aa2; }
+            .contact { border-color: #2c2f36; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Argus – Hidden Camera Detector</h1>
+<p class="meta">Support</p>
+
+<p class="lead">Questions, bug reports and refund requests are all welcome. We read every message.</p>
+
+<div class="contact">
+    <strong>Email:</strong> <a href="mailto:argus.detector@proton.me">argus.detector@proton.me</a><br />
+    We usually reply within 2–3 business days.
+</div>
+
+<p>To help us answer faster, please include your device model, iOS version, and which scanner the problem happened on.</p>
+
+<h2>Common questions</h2>
+
+<h3>A scanner found nothing — does that mean the room is clean?</h3>
+<p>No. Argus narrows down where to look; it cannot prove a room is free of surveillance devices. A hidden camera that is switched off, wired to its own network, or shielded from the phone's sensors will not show up. Use several scanners together and treat the results as a starting point for a physical check.</p>
+
+<h3>The Wi-Fi scanner shows no devices</h3>
+<p>On iOS this is almost always the Local Network permission. Open <em>Settings → Argus → Local Network</em> and turn it on, then scan again. iOS only asks for this permission once, so if it was declined earlier the app cannot ask again.</p>
+
+<h3>The Wi-Fi scanner cannot read my network name</h3>
+<p>Reading the Wi-Fi network name requires Location access with Precise Location enabled — that is an iOS rule, not our choice. Argus never stores or transmits your location. Check <em>Settings → Argus → Location</em>.</p>
+
+<h3>The camera scanner does not detect reflections</h3>
+<p>It is designed for a dark room: turn the lights off, switch the torch on in the app, and hold the phone 10–30 cm from the surface you are checking. In a brightly lit room the detector deliberately stays quiet, because bright rooms produce constant false alarms.</p>
+
+<h3>The magnet scanner reads high everywhere</h3>
+<p>Phone magnetometers are affected by nearby metal and magnets, and the reading can stay high after you pass a large metal object. Move away from metal, then start a new scan so the app recalibrates.</p>
+
+<h2>Managing your subscription</h2>
+<p>Argus Pro is an auto-renewable subscription billed through your Apple Account. To view, change or cancel it, open <em>Settings → [your name] → Subscriptions</em> on your iPhone. Cancelling stops future renewals; the subscription stays active until the end of the paid period.</p>
+<p>If you subscribed before on the same Apple Account, use <em>Restore Purchases</em> in the app's settings rather than paying again.</p>
+
+<h2>Refunds</h2>
+<p>Purchases are processed by Apple, so refunds are handled by Apple rather than by us. Request one at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Write to us as well if something went wrong — it helps us fix it.</p>
+
+<h2>Privacy</h2>
+<p>Scans run on your device. See the <a href="privacy-policy.html">Privacy Policy</a> for exactly what is processed and what leaves the device, and the <a href="terms-of-use.html">Terms of Use</a> for the subscription terms.</p>
+
+</body>
+</html>
