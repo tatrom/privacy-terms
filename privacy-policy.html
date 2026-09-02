@@ -33,15 +33,15 @@
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="meta"><strong>Effective date:</strong> July 9, 2026</p>
+<p class="meta"><strong>Effective date:</strong> September 1, 2026</p>
 
-<p class="lead">This Privacy Policy explains how <strong>Argus – Hidden Camera Detector</strong> (“Argus”, “the App”, “we”, “us”) handles information when you use it. In short: the App is built to keep your data on your device. We do not run behavioral analytics, advertising, or tracking, and the only information that leaves your device is what is strictly required to process your subscription, plus technical crash reports that help us fix bugs.</p>
+<p class="lead">This Privacy Policy explains how <strong>Argus – Hidden Camera Detector</strong> (“Argus”, “the App”, “we”, “us”) handles information when you use it. In short: the App is built to keep your data on your device. We do not run advertising or cross-app tracking, and the only information that leaves your device is what is required to process your subscription, technical crash reports that help us fix bugs, and anonymous usage statistics that help us improve the App. Your scan results never leave your device.</p>
 
 <h2>1. Summary</h2>
 <ul>
     <li><strong>On-device by design.</strong> All scanning and detection (camera, Bluetooth, Wi-Fi/network, magnetometer) runs locally on your phone.</li>
-    <li><strong>No ads or tracking.</strong> We do not use advertising or behavioral-analytics SDKs and do not track you across apps or websites.</li>
-    <li><strong>The only data sent off your device</strong> relates to purchases and subscriptions, handled by our payment infrastructure providers (see Section 3), and technical crash diagnostics (see Section 4).</li>
+    <li><strong>No ads or cross-app tracking.</strong> We do not use advertising SDKs, do not use the advertising identifier (IDFA), and do not track you across other apps or websites.</li>
+    <li><strong>The only data sent off your device</strong> relates to purchases and subscriptions, handled by our payment infrastructure providers (see Section 3), technical crash diagnostics (see Section 4), and anonymous in-app usage statistics (see Section 5). Scan contents are never included in any of it.</li>
 </ul>
 
 <h2>2. Information processed on your device (not collected by us)</h2>
@@ -70,7 +70,16 @@
 </ul>
 <p>See the <a href="https://sentry.io/privacy/" rel="noopener noreferrer" target="_blank">Sentry Privacy Policy</a>.</p>
 
-<h2>5. Permissions and why we request them</h2>
+<h2>5. Product analytics (usage statistics)</h2>
+<p>To understand which features are used and where the App can be improved, we use <strong>Google Analytics for Firebase</strong> (Google LLC). It receives anonymous in-app usage events — for example, which screens are opened, when a scan is started or completed and how many devices it listed (a count only), and steps of the subscription flow (e.g. that the paywall was viewed or a purchase was completed). Along with events, the SDK collects a <strong>random app-scoped instance identifier</strong> (reset when you reinstall the App), device model, operating-system version, App version, and a coarse country/region derived from the IP address at receipt. Specifically:</p>
+<ul>
+    <li><strong>No scan contents:</strong> camera frames, device names or identifiers found by a scan, network addresses, Wi-Fi network names, and sensor readings are never sent to analytics — only anonymous counts and feature-usage events.</li>
+    <li><strong>No personal identifiers:</strong> no name, email, account, precise location, or advertising identifier (IDFA) is collected. The App ships without ad-identifier support, and analytics data is not used for advertising or shared for advertising purposes.</li>
+    <li><strong>Subscription lifecycle events</strong> (e.g. that a trial started or a subscription renewed) are also forwarded to the same analytics property by our subscription provider (RevenueCat, see Section 3), keyed to the same random instance identifier — never to your identity.</li>
+</ul>
+<p>See <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer" target="_blank">Firebase Privacy and Security</a>.</p>
+
+<h2>6. Permissions and why we request them</h2>
 <ul>
     <li><strong>Camera</strong> — to analyze the live image for reflections/IR glints from hidden camera lenses. No photos or video are stored.</li>
     <li><strong>Bluetooth</strong> — to discover nearby Bluetooth devices that could be hidden electronics.</li>
@@ -79,25 +88,25 @@
     <li><strong>Notifications</strong> — to send optional local reminders (e.g., to run a scan). These are generated on your device; no data is sent to a server, and you can disable them in your system settings.</li>
 </ul>
 
-<h2>6. Data sharing and sale</h2>
-<p>We do <strong>not</strong> sell your data and do <strong>not</strong> share it for advertising. The only sharing is with the purchase providers named in Section 3 (solely to process and maintain your subscription) and the crash-diagnostics provider named in Section 4 (solely to fix defects in the App).</p>
+<h2>7. Data sharing and sale</h2>
+<p>We do <strong>not</strong> sell your data and do <strong>not</strong> share it for advertising. The only sharing is with the purchase providers named in Section 3 (solely to process and maintain your subscription), the crash-diagnostics provider named in Section 4 (solely to fix defects in the App), and the analytics provider named in Section 5 (solely to measure anonymous feature usage).</p>
 
-<h2>7. Data retention</h2>
-<p>On-device information (scan history, settings) remains on your device until you delete it or uninstall the App. Purchase records held by RevenueCat and the app stores, and crash reports held by Sentry, are retained according to their respective policies.</p>
+<h2>8. Data retention</h2>
+<p>On-device information (scan history, settings) remains on your device until you delete it or uninstall the App. Purchase records held by RevenueCat and the app stores, and crash reports held by Sentry, are retained according to their respective policies. Analytics event data held by Google Analytics for Firebase is retained for a limited period configured by us (at most 14 months), after which it is deleted or aggregated.</p>
 
-<h2>8. Children’s privacy</h2>
+<h2>9. Children’s privacy</h2>
 <p>The App is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
 
-<h2>9. Your choices and rights</h2>
-<p>You can clear on-device data at any time by clearing the App’s history or uninstalling it. You can manage or cancel your subscription in your App Store or Google Play account settings. For questions about purchase or crash-diagnostic data held by our providers, contact us using the details below.</p>
+<h2>10. Your choices and rights</h2>
+<p>You can clear on-device data at any time by clearing the App’s history or uninstalling it. You can manage or cancel your subscription in your App Store or Google Play account settings. For questions about purchase, crash-diagnostic, or analytics data held by our providers, contact us using the details below.</p>
 
-<h2>10. Security</h2>
+<h2>11. Security</h2>
 <p>On-device data is stored within the App’s private storage area, which is protected by your device’s operating system sandbox.</p>
 
-<h2>11. Changes to this policy</h2>
+<h2>12. Changes to this policy</h2>
 <p>We may update this Privacy Policy from time to time. Material changes will be posted on this page with an updated effective date.</p>
 
-<h2>12. Contact</h2>
+<h2>13. Contact</h2>
 <p>If you have questions or concerns about this policy, contact us at: <a href="mailto:argus.detector@proton.me">argus.detector@proton.me</a></p>
 </body>
 </html>
