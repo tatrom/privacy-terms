@@ -37,13 +37,16 @@
 
 <div class="summary">
     <p><strong>In short:</strong> Argus &ndash; Hidden Camera Detector has no user account and no Argus server.
-        Camera frames, Wi-Fi and Bluetooth scan results, magnetometer readings and your scan history are
-        processed and stored on your iPhone and are never uploaded. Argus shows no ads, does not use the
-        advertising identifier (IDFA) and does not track you across apps or websites.</p>
-    <p>Three things do leave your phone: your App Store receipt, to validate the subscription; an anonymous
-        crash report if the app crashes; and anonymous usage counts such as &ldquo;a scan was completed&rdquo;.
-        None of them contains anything a scan found. The sections below say exactly what each one receives, and
-        <a href="/privacy/">a plain-language version of this page is here</a>.</p>
+        Camera frames, Wi-Fi and Bluetooth results and magnetometer readings are processed on your iPhone and
+        are never uploaded. Camera frames and magnetometer readings are analysed as they arrive and are never
+        recorded or saved; only Wi-Fi and Bluetooth scans are written to the app’s local storage, where you can
+        delete them. Argus shows no ads, does not use the advertising identifier (IDFA) and does not track you
+        across apps or websites.</p>
+    <p>Three things do leave your phone: your App Store receipt, to validate the subscription; crash and error
+        reports, which the App sends for handled errors too, not only when it crashes; and usage counts such as
+        &ldquo;a scan was completed&rdquo;. None of them contains anything a scan found, and each carries a
+        random per-installation identifier rather than your name or email. The sections below say exactly what
+        each one receives, and <a href="/privacy/">a plain-language version of this page is here</a>.</p>
 </div>
 
 <p class="lead">This Privacy Policy explains how <strong>Argus – Hidden Camera Detector</strong> (“Argus”, “the App”, “we”, “us”) handles information when you use it. In short: the App is built to keep your data on your device. We do not run advertising or cross-app tracking, and the only information that leaves your device is what is required to process your subscription, technical crash reports that help us fix bugs, and anonymous usage statistics that help us improve the App. Your scan results never leave your device.</p>
@@ -94,7 +97,11 @@
 <ul>
     <li><strong>Camera</strong> — to analyze the live image for reflections/IR glints from hidden camera lenses. No photos or video are stored.</li>
     <li><strong>Bluetooth</strong> — to discover nearby Bluetooth devices that could be hidden electronics.</li>
-    <li><strong>Location</strong> — required by the operating system to read Wi-Fi network information and to scan for nearby Bluetooth devices. We do <strong>not</strong> use GPS to track you, and we do not store or transmit your location.</li>
+    <li><strong>Location</strong> — required by the operating system before the App can read the name of the
+        Wi-Fi network you are joined to. On Android 11 and older the system also requires it for Bluetooth
+        scanning; on iOS and on Android 12 and newer it is not used for Bluetooth. We do <strong>not</strong>
+        use GPS to track you — the App makes no call to any positioning API — and we do not store or transmit
+        your location.</li>
     <li><strong>Local network</strong> — to list other devices on your Wi-Fi network, the App checks addresses on your local network. On iOS this prompts for “Local Network” access, and on Android for “Nearby Wi-Fi devices”. This information stays on your device and is not transmitted to us.</li>
     <li><strong>Notifications</strong> — to send optional local reminders (e.g., to run a scan). These are generated on your device; no data is sent to a server, and you can disable them in your system settings.</li>
 </ul>
